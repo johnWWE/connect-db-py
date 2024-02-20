@@ -4,6 +4,16 @@ This is a simple example of how to connect to a PostgreSQL database using enviro
 
 ## Requirements
 
+Optional you can activate enviroment with:
+
+```
+pyhton -m venv env
+```
+
+```
+source env/bin/activate
+```
+
 To run this code, you will need to have the following Python packages installed:
 
 - psycopg2==2.9.9
@@ -29,7 +39,7 @@ DB_PORT=5432
 
 These environment variables will be used to establish the connection with the PostgreSQL database.
 
-## Uso
+## Use
 
 Simply run the `main.py` script:
 
